@@ -2439,3 +2439,34 @@ body {background-image: url(../images/sundown/hg.jpg);background-repeat: repeat-
 .notifybox {color: #FFFFFF;}
 .notifybox {border-color: #25190B;}
 .notifybox .icon {color: #FF0000;}
+
+/* === Logo auf Mobil sichtbar machen === */
+@media only screen and (max-width: 800px) {
+    .logo {
+        display: block;
+        text-align: center;
+        margin: 10px auto;
+        position: relative;
+        z-index: 150;
+    }
+    .logo img {
+        max-width: 90%;
+        height: auto;
+    }
+}
+
+/* === "Archiv 2007 - 2026" unter dem Logo (Desktop + Mobil) === */
+.logo a::after {
+    content: "Archiv 2007 - 2026";
+    display: block;
+    width: fit-content;
+    margin: 6px auto 0;
+    text-align: center;
+    font-size: clamp(1.05rem, 2.2vw, 1.5rem);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.55);
+    padding: 5px 18px;
+    border-radius: 4px;
+}
