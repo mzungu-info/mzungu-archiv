@@ -1,0 +1,39 @@
+.S4wbb_copyLink {
+float:right;
+margin-top:-20px;
+}
+
+.S4wbb_mediaContainer {
+clear:both;
+text-align:center
+border: 1px solid #000000;
+background-color:#000000;
+}
+
+.S4wbb_mediaContainer{ 
+height:auto;
+margin:auto;
+text-align:left;
+}
+.S4wbb_mediaContainer .border{ 
+margin:0 15px 7px 0;
+}
+.S4wbb_mediaContainer  .border .containerHead { 
+font-weight:bold;
+}
+.S4wbb_mediaBackground{ 
+margin: 0 1px 1px 0;
+}
+
+
+
+/* ### Audio Specific ### */
+.S4wbb_mediaContainer {
+width:464px;
+}
+.S4wbb_mediaContainer .border {
+width:465px;
+}
+.S4wbb_mediaBackground {
+background:#5C5C5C;
+}
