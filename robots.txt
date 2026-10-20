@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mzungu-info.github.io/mzungu-archiv/sitemap.xml
